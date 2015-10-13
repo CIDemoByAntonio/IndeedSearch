@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32233" started-at="2015-10-13T08:10:58Z" finished-at="2015-10-13T08:11:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32233" started-at="2015-10-13T08:10:58Z" finished-at="2015-10-13T08:11:31Z">
+      <class name="org.orgselenium.indeed.tests.IndeedSearchTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@3866ee93]" name="beforeClass" is-config="true" duration-ms="4477" started-at="2015-10-13T10:10:58Z" finished-at="2015-10-13T10:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String)[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@3866ee93]" name="testSearch" duration-ms="3342" started-at="2015-10-13T10:11:03Z" data-provider="testData" finished-at="2015-10-13T10:11:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amsterdam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@3866ee93]" name="afterClass" is-config="true" duration-ms="238" started-at="2015-10-13T10:11:06Z" finished-at="2015-10-13T10:11:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@3866ee93]" name="beforeClass" is-config="true" duration-ms="3549" started-at="2015-10-13T10:11:06Z" finished-at="2015-10-13T10:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String)[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@3866ee93]" name="testSearch" duration-ms="3140" started-at="2015-10-13T10:11:10Z" data-provider="testData" finished-at="2015-10-13T10:11:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SoapUI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amsterdam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@3866ee93]" name="afterClass" is-config="true" duration-ms="169" started-at="2015-10-13T10:11:13Z" finished-at="2015-10-13T10:11:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@3866ee93]" name="beforeClass" is-config="true" duration-ms="4467" started-at="2015-10-13T10:11:13Z" finished-at="2015-10-13T10:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String)[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@3866ee93]" name="testSearch" duration-ms="3160" started-at="2015-10-13T10:11:18Z" data-provider="testData" finished-at="2015-10-13T10:11:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cucumber tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amsterdam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@3866ee93]" name="afterClass" is-config="true" duration-ms="155" started-at="2015-10-13T10:11:21Z" finished-at="2015-10-13T10:11:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@3866ee93]" name="beforeClass" is-config="true" duration-ms="5211" started-at="2015-10-13T10:11:21Z" finished-at="2015-10-13T10:11:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String)[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@3866ee93]" name="testSearch" duration-ms="4158" started-at="2015-10-13T10:11:26Z" data-provider="testData" finished-at="2015-10-13T10:11:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amsterdam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@3866ee93]" name="afterClass" is-config="true" duration-ms="156" started-at="2015-10-13T10:11:30Z" finished-at="2015-10-13T10:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- org.orgselenium.indeed.tests.IndeedSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
