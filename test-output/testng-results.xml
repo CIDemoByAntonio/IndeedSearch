@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="80992" started-at="2015-10-19T13:02:13Z" finished-at="2015-10-19T13:03:34Z">
+  <suite name="Default suite" duration-ms="34555" started-at="2015-10-19T19:39:16Z" finished-at="2015-10-19T19:39:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="80992" started-at="2015-10-19T13:02:13Z" finished-at="2015-10-19T13:03:34Z">
+    <test name="Default test" duration-ms="34555" started-at="2015-10-19T19:39:16Z" finished-at="2015-10-19T19:39:50Z">
       <class name="org.orgselenium.indeed.tests.IndeedSearchTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@6db911d2]" name="beforeClass" is-config="true" duration-ms="5117" started-at="2015-10-19T15:02:13Z" finished-at="2015-10-19T15:02:18Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@11412a45]" name="beforeClass" is-config="true" duration-ms="3874" started-at="2015-10-19T21:39:16Z" finished-at="2015-10-19T21:39:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String)[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@6db911d2]" name="testSearch" duration-ms="25895" started-at="2015-10-19T15:02:18Z" data-provider="testData" finished-at="2015-10-19T15:02:44Z">
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String)[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@11412a45]" name="testSearch" duration-ms="3313" started-at="2015-10-19T21:39:20Z" data-provider="testData" finished-at="2015-10-19T21:39:23Z">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearch -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@6db911d2]" name="afterClass" is-config="true" duration-ms="279" started-at="2015-10-19T15:02:44Z" finished-at="2015-10-19T15:02:45Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@11412a45]" name="afterClass" is-config="true" duration-ms="268" started-at="2015-10-19T21:39:23Z" finished-at="2015-10-19T21:39:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@6db911d2]" name="beforeClass" is-config="true" duration-ms="4234" started-at="2015-10-19T15:02:45Z" finished-at="2015-10-19T15:02:49Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@11412a45]" name="beforeClass" is-config="true" duration-ms="3013" started-at="2015-10-19T21:39:23Z" finished-at="2015-10-19T21:39:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String)[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@6db911d2]" name="testSearch" duration-ms="4428" started-at="2015-10-19T15:02:49Z" data-provider="testData" finished-at="2015-10-19T15:02:53Z">
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String)[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@11412a45]" name="testSearch" duration-ms="3465" started-at="2015-10-19T21:39:26Z" data-provider="testData" finished-at="2015-10-19T21:39:30Z">
           <params>
             <param index="0">
               <value>
@@ -51,15 +51,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearch -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@6db911d2]" name="afterClass" is-config="true" duration-ms="198" started-at="2015-10-19T15:02:53Z" finished-at="2015-10-19T15:02:53Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@11412a45]" name="afterClass" is-config="true" duration-ms="152" started-at="2015-10-19T21:39:30Z" finished-at="2015-10-19T21:39:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@6db911d2]" name="beforeClass" is-config="true" duration-ms="8772" started-at="2015-10-19T15:02:53Z" finished-at="2015-10-19T15:03:02Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@11412a45]" name="beforeClass" is-config="true" duration-ms="3124" started-at="2015-10-19T21:39:30Z" finished-at="2015-10-19T21:39:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String)[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@6db911d2]" name="testSearch" duration-ms="21770" started-at="2015-10-19T15:03:02Z" data-provider="testData" finished-at="2015-10-19T15:03:24Z">
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String)[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@11412a45]" name="testSearch" duration-ms="2877" started-at="2015-10-19T21:39:33Z" data-provider="testData" finished-at="2015-10-19T21:39:36Z">
           <params>
             <param index="0">
               <value>
@@ -75,15 +75,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearch -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@6db911d2]" name="afterClass" is-config="true" duration-ms="141" started-at="2015-10-19T15:03:24Z" finished-at="2015-10-19T15:03:24Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@11412a45]" name="afterClass" is-config="true" duration-ms="145" started-at="2015-10-19T21:39:36Z" finished-at="2015-10-19T21:39:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@6db911d2]" name="beforeClass" is-config="true" duration-ms="3645" started-at="2015-10-19T15:03:24Z" finished-at="2015-10-19T15:03:28Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@11412a45]" name="beforeClass" is-config="true" duration-ms="3408" started-at="2015-10-19T21:39:36Z" finished-at="2015-10-19T21:39:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String)[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@6db911d2]" name="testSearch" duration-ms="6298" started-at="2015-10-19T15:03:28Z" data-provider="testData" finished-at="2015-10-19T15:03:34Z">
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String)[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@11412a45]" name="testSearch" duration-ms="3212" started-at="2015-10-19T21:39:39Z" data-provider="testData" finished-at="2015-10-19T21:39:42Z">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearch -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@6db911d2]" name="afterClass" is-config="true" duration-ms="201" started-at="2015-10-19T15:03:34Z" finished-at="2015-10-19T15:03:34Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@11412a45]" name="afterClass" is-config="true" duration-ms="193" started-at="2015-10-19T21:39:42Z" finished-at="2015-10-19T21:39:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@11412a45]" name="beforeClass" is-config="true" duration-ms="3380" started-at="2015-10-19T21:39:43Z" finished-at="2015-10-19T21:39:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testSearch(java.lang.String, java.lang.String)[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@11412a45]" name="testSearch" duration-ms="3920" started-at="2015-10-19T21:39:46Z" data-provider="testData" finished-at="2015-10-19T21:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Technical tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amsterdam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.orgselenium.indeed.tests.IndeedSearchTest@11412a45]" name="afterClass" is-config="true" duration-ms="195" started-at="2015-10-19T21:39:50Z" finished-at="2015-10-19T21:39:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

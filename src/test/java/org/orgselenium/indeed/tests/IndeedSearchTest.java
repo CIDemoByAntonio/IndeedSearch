@@ -22,6 +22,7 @@ public class IndeedSearchTest {
 			new Object[] {"SoapUI","Amsterdam"},
 			new Object[] {"Cucumber tester","Amsterdam"},
 			new Object[] {"Mobile tester","Amsterdam"},
+			new Object[] {"Technical tester","Amsterdam"}
 			};
 		}
 
