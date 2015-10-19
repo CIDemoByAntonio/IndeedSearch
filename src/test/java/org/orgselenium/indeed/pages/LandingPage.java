@@ -42,7 +42,7 @@ public class LandingPage {
 		searchButton.click();
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		 try {
-			FileUtils.copyFile(scrFile, new File("D:\\users\\antonio.seraus\\"+item +".jpg"));
+			FileUtils.copyFile(scrFile, new File(this.getClass().getSimpleName()+item +".jpg"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
