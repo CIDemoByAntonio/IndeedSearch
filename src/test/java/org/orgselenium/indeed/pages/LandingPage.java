@@ -1,8 +1,13 @@
 package org.orgselenium.indeed.pages;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -35,6 +40,13 @@ public class LandingPage {
 		searchCity.clear();
 		searchCity.sendKeys(location);
 		searchButton.click();
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		 try {
+			FileUtils.copyFile(scrFile, new File("D:\\users\\antonio.seraus\\"+item +".jpg"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return searchResults.findElements(By.tagName("a"));
 	}
 	
